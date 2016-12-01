@@ -7,9 +7,8 @@ unfortunately not enough for larger, collaborative, projects.
 # How to use this guide
 
 This standard practice can be applied to newly created GitHub repositories or
-added on top of exisiting ones. The philosophy behind this unofficial standard
-is to not only add scalable structure to the naming conventions of the labels,
-but also the colors, sub-categories and personal disipline.
+added on top of existing ones. The philosophy behind this unofficial standard
+is to not only add scalable structure to the naming conventions of the label, but also the colors, sub-categories, and personal discipline.
 
 # Contribute
 Please, please, please contribute. If you see a mistake in grammar, spelling,
@@ -35,8 +34,8 @@ longer wavelengths.
 - orange
 - red
 
-Similarly amongst the longer wavelengths, we associate `yellow` with caution and
-yield. Less of an emergency but still priority. `orange` we can see as a neutral
+Similarly, amongst the longer wavelengths, we associate `yellow` with caution and
+yield. Less of an emergency but a still priority. `orange` we can see as a neutral
 between the two long wavelengths, which serves its purpose as a more neutral
 emergency but still unsettling as we can't tell which way it could go (lighter
 to yellow, or darker to red)
@@ -46,7 +45,7 @@ to yellow, or darker to red)
 - blue
 - green
 
-Short-wave colors on the other hand, the more dark colors which may or may not
+Short-wave colors, on the other hand, the more dark colors which may or may not
 include achromatic colors, which ironically means "without color." 
 
 ### Anti-Color
@@ -60,9 +59,9 @@ A literal translation of Achromatic is "without color." Taking into n
 
 ### Shades
 
-GitHub's label color defaults is actually interesting, as you have the option to
+GitHub's label color defaults are actually interesting, as you have the option to
 use a dark shade of a specified color or its respective dark shade. These 
-different shades of colors can act as contrast between severity and gentility.
+different shades of colors can act as the contrast between severity and gentility.
 
 ### Association
 
@@ -142,9 +141,6 @@ Example 1
 ```js
 Example 2
 ```
-
-If you wish to use a labels template with software that also accepts templates,
-but is not present above, feel free to open an issue to contribute.
 
 # References
 - https://science-edu.larc.nasa.gov/EDDOCS/Wavelengths_for_Colors.html
