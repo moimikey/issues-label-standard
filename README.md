@@ -72,14 +72,22 @@ see it as urgent, emergent, or error.
 - yellow (refactor, trivial, open, in review)
 - orange (security, performance, major, minor, in progress)
 - red (bug, duplicate, invalid, blocker, critical, blocked)
-- violet ()
-- blue ()
+- violet (free)
+- blue (free)
 - green (enhancement, update, accepted)
 - gray (documentation, help, abandoned)
-- black ()
+- black (reserved for release number or version)
 
 To ensure better separation, we can use different shades of these colors in
 order to differentiate between top-level categories (type, priority, etc).
+
+color  | lightest  | lighter       | light       | dark       | darker   | darkest
+---    | ---       | ---           | ---         | ---        | ---      | ---
+**yellow** | open      | trivial       | in review   | refactor
+**orange** | minor     | in progress   | performance | security   | major
+**red**    | duplicate | invalid       | blocked     | blocker    | critical | bug
+**green**  | update    | enhancement   | accepted
+**gray**   | help      | documentation | abandoned
 
 ## Types
 
