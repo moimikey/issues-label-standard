@@ -1,7 +1,7 @@
 # What is the _Issues Label Standard_ (WIP)
 
-This is an unofficial standard and guide for creating scalable and efficient naming
-conventions and practices for GitHub Issues, where the default labels are
+This is an unofficial standard and guide for creating scalable and efficient
+naming conventions and practices for GitHub Issues, where the default labels are
 unfortunately not enough for larger, collaborative, projects.
 
 # How to use this guide
@@ -11,15 +11,24 @@ added on top of exisiting ones. The philosophy behind this unofficial standard
 is to not only add scalable structure to the naming conventions of the labels,
 but also the colors, sub-categories and personal disipline.
 
+# Contribute
+Please, please, please contribute. If you see a mistake in grammar, spelling,
+syntax, usage of words, etc, do open a pull request! Help build this standard.
+Supply your opinion, your suggestion, your edits, your enhancements.
+
+# CLI
+
+TODO
+
 # Issues Label Standard
 
 ## Color
 ### Visible Light
 
-If we compare color to its wavelength in visible light, it can be attributed that
-violet, blue, and green (darker colors), respectively have shorter wavelengths
-than yellow, orange, red (brighter colors), respectively having longer
-wavelengths.
+If we compare color to its wavelength in visible light, it can be attributed
+that violet, blue, and green (darker colors), respectively have shorter
+wavelengths than yellow, orange, red (brighter colors), respectively having
+longer wavelengths.
 
 #### Long-wave
 - yellow
@@ -61,6 +70,18 @@ As humans, we generally associate certain colors with certain emotional bonds.
 As an example when we think of `red` we think of love, sex and fire, but we also
 see it as urgent, emergent, or error.
 
+- yellow (refactor, trivial, open, in review)
+- orange (security, performance, major, minor, in progress)
+- red (bug, duplicate, invalid, blocker, critical, blocked)
+- violet ()
+- blue ()
+- green (enhancement, update, accepted)
+- gray (documentation, help, abandoned)
+- black ()
+
+To ensure better separation, we can use different shades of these colors in
+order to differentiate between top-level categories (type, priority, etc).
+
 ## Types
 
 - bug
@@ -68,16 +89,15 @@ see it as urgent, emergent, or error.
 - help
 - invalid
 - duplicate
-- dependency
 
 ## Sub-Types
 
-- core
 - regression
 - security
 - performance
 - documentation
 - refactor
+- update
 
 ## Priority
 
@@ -87,15 +107,17 @@ see it as urgent, emergent, or error.
 - minor
 - trivial
 
+## Status
+- in discussion
+- in progress
+- in review
+
 ## Resolution
 
 - open
 - abandoned
 - accepted
 - blocked
-- in progress
-- in review
-- pending
 
 ## Duration
 
