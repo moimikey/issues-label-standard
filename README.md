@@ -57,11 +57,11 @@ A literal translation of Achromatic is "without color." Taking into n
 - black
 - white
 
-### Shades
+### Tints
 
 GitHub's label color defaults are actually interesting, as you have the option to
-use a dark shade of a specified color or its respective dark shade. These 
-different shades of colors can act as the contrast between severity and gentility.
+use a dark tint of a specified color or its respective dark tint. These 
+different tints of colors can act as the contrast between severity and gentility.
 
 ### Association
 
@@ -71,31 +71,61 @@ see it as urgent, emergent, or error.
 
 - yellow (refactor, trivial, open, in review)
 - orange (security, performance, major, minor, in progress)
-- red (bug, duplicate, invalid, blocker, critical, blocked)
+- red (bug, blocker, critical, blocked)
 - violet (free)
 - blue (free)
 - green (enhancement, update, accepted)
-- gray (documentation, help, abandoned)
+- gray (documentation, help, abandoned, invalid, duplicate)
 - black (reserved for release number or version)
 
-To ensure better separation, we can use different shades of these colors in
+To ensure better separation, we can use different tints of these colors in
 order to differentiate between top-level categories (type, priority, etc).
 
-color  | lightest  | lighter       | light       | dark       | darker   | darkest
----    | ---       | ---           | ---         | ---        | ---      | ---
-**yellow** | open      | trivial       | in review   | refactor
-**orange** | minor     | in progress   | performance | security   | major
-**red**    | duplicate | invalid       | blocked     | blocker    | critical | bug
-**green**  | update    | enhancement   | accepted
-**gray**   | help      | documentation | abandoned
+color      | darkest     | darker        | *           | lighter     | lightest 
+---        | ---         | ---           | ---         | ---         | ---      
+**yellow** | refactor    | in review     | trivial     | open        | discussion        
+**yellow** | ![][ffff00] | ![][ffff7f]   | ![][ffff99] | ![][ffffb2] | ![][ffffcc]
+**orange** | major       | in progress   | performance | security    | minor     
+**orange** | ![][ffa500] | ![][ffb732]   | ![][ffc966] | ![][ffdb99] | ![][ffe4b2]
+**red**    | critical    | bug           | blocker     | blocked     |           
+**red**    | ![][ff0000] | ![][ff3232]   | ![][ff6666] | ![][ff9999] | ![][ffcccc]
+**green**  | enhancement | feature       | update      |             |           
+**green**  | ![][008000] | ![][329932]   | ![][66b266] | ![][99cc99] | ![][cce5cc]
+**gray**   | help        | documentation | abandoned   | duplicate   | invalid   
+**gray**   | ![][808080] | ![][999999]   | ![][b2b2b2] | ![][cccccc] | ![][e5e5e5]
 
-## Types
+[ffff00]: https://dummyimage.com/90x40/ffff00/000.png&text=ffff00
+[ffff7f]: https://dummyimage.com/90x40/ffff7f/000.png&text=ffff7f
+[ffff99]: https://dummyimage.com/90x40/ffff99/000.png&text=ffff99
+[ffffb2]: https://dummyimage.com/90x40/ffffb2/000.png&text=ffffb2
+[ffffcc]: https://dummyimage.com/90x40/ffffcc/000.png&text=ffffcc
+[ffa500]: https://dummyimage.com/90x40/ffa500/fff.png&text=ffa500
+[ffb732]: https://dummyimage.com/90x40/ffb732/fff.png&text=ffb732
+[ffc966]: https://dummyimage.com/90x40/ffc966/fff.png&text=ffc966
+[ffdb99]: https://dummyimage.com/90x40/ffdb99/000.png&text=ffdb99 
+[ffe4b2]: https://dummyimage.com/90x40/ffe4b2/000.png&text=ffe4b2 
+[ff0000]: https://dummyimage.com/90x40/ff0000/fff.png&text=ff0000 
+[ff3232]: https://dummyimage.com/90x40/ff3232/fff.png&text=ff3232 
+[ff6666]: https://dummyimage.com/90x40/ff6666/fff.png&text=ff6666 
+[ff9999]: https://dummyimage.com/90x40/ff9999/000.png&text=ff9999 
+[ffcccc]: https://dummyimage.com/90x40/ffcccc/000.png&text=ffcccc 
+[008000]: https://dummyimage.com/90x40/008000/fff.png&text=008000 
+[329932]: https://dummyimage.com/90x40/329932/fff.png&text=329932 
+[66b266]: https://dummyimage.com/90x40/66b266/fff.png&text=66b266 
+[99cc99]: https://dummyimage.com/90x40/99cc99/000.png&text=99cc99 
+[cce5cc]: https://dummyimage.com/90x40/cce5cc/000.png&text=cce5cc 
+[808080]: https://dummyimage.com/90x40/808080/fff.png&text=808080 
+[999999]: https://dummyimage.com/90x40/999999/fff.png&text=999999 
+[b2b2b2]: https://dummyimage.com/90x40/b2b2b2/fff.png&text=b2b2b2 
+[cccccc]: https://dummyimage.com/90x40/cccccc/000.png&text=cccccc 
+[e5e5e5]: https://dummyimage.com/90x40/e5e5e5/000.png&text=e5e5e5 
+
+## Types 
 
 - bug
 - enhancement
-- help
-- invalid
-- duplicate
+- discussion
+- feature
 
 ## Sub-Types
 
@@ -124,34 +154,19 @@ color  | lightest  | lighter       | light       | dark       | darker   | darke
 - open
 - abandoned
 - accepted
+- invalid
+- duplicate
 - blocked
 
-## Duration
-
-TODO
-
-### Point systems
-
-TODO
-
-## Usage
+# Usage
 
 GitHub Issue's does not provide a very intuitive way to bulk create or import
-labels. However, there are numerous open-source utilities that serve this very
-purpose. Some of which accept templates. This unofficial standard pairs well with
-utilities that accept a pre-defined template. Here are Issues Label Standard
-templates that can be imported and used:
-
-```js
-Example 1
-```
-
-```js
-Example 2
-```
+labels. However, there are numerous open-source modules that serve this very
+purpose. Some of which accept templates.
 
 # References
 - https://science-edu.larc.nasa.gov/EDDOCS/Wavelengths_for_Colors.html
+- http://www.color-hex.com
 
 # License
 MIT
