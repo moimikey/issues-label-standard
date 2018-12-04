@@ -35,7 +35,7 @@ longer wavelengths.
 - red
 
 Similarly, amongst the longer wavelengths, we associate `yellow` with caution and
-yield. Less of an emergency but a still priority. `orange` we can see as a neutral
+yield. Less of an emergency but still a priority. `orange` we can see as a neutral
 between the two long wavelengths, which serves its purpose as a more neutral
 emergency but still unsettling as we can't tell which way it could go (lighter
 to yellow, or darker to red)
